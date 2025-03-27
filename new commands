@@ -25,3 +25,36 @@ RUN javac Add.java
 CMD ["java","Add"]
 docker build -t img1 .
 docker run img1
+1. 
+git init
+git remote add origin URL
+git config --global user.email "vvce22ise0026@vvce.ac.in"
+git config --global user.name "sahana717"
+vi sa.txt
+cat sa.txt
+git add .
+git commit -m "version1"
+git status
+git log
+git reset --hard ID
+git push  origin master/main 
+git clone URL
+
+2. 
+git checkout -b branch1
+git add .
+git commit -m "b1"
+git switch master
+git merge branch1
+git diff master
+git merge
+
+4.
+FROM openjdk
+WORKDIR /app
+COPY . /app
+RUN javac Add.java
+CMD ["java","Add"]
+
+docker build -t img1 .
+docker run img1
