@@ -5,6 +5,7 @@ git add .
 git commit -m"version1"
 git push  origin master/main 
 git clone URL
+vi text.txt
 git status
 git log
 git reset --hard ID
